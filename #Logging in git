@@ -1,0 +1,29 @@
+#Logging in git
+git config --global user.name 'username '
+
+
+git config --global user.email 'useremail '
+
+#Cloning repository
+git clone 'repository link'
+
+#Checking repository status
+git status
+
+
+#Staging All
+git add .
+
+or
+#Staging Specific file
+git add'file name'
+
+
+#comitting file
+git commit -m'inserted a sentence'
+
+#Pushing file and aliaising nickname
+git remote add origin 'link of file jisme push krna hay'
+
+#Pulling from local master server and pushing to online master server
+git push origin master
